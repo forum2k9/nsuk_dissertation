@@ -4,7 +4,7 @@ geopandas
 fiona
 folium
 keplergl==0.3.7
-setuptools
+setuptools<82.0.0
 Shapely
 SQLAlchemy
 streamlit_folium
