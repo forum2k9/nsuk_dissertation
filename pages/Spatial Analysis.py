@@ -2,13 +2,9 @@ import streamlit as st
 import pandas as pd
 from keplergl import KeplerGl
 from streamlit_keplergl import keplergl_static
-
 import geopandas as gpd
 from sqlalchemy import create_engine
-
-
 import json
-
 
 st.set_page_config(layout="wide")
 st.markdown("### 🗺️ Exploratory Spatial Data Analysis of Campus Facilities")
