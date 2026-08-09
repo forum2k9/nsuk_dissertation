@@ -1,0 +1,30 @@
+{
+"type": "FeatureCollection",
+"name": "poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Name": "FPN Microfinance Bank Ltd", "image": "FPN Microfinance Bank Ltd.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.716535642137867, 8.567477502001884 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Name": "School of Information Technology Complex", "image": "School of Information Technology Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.716206217170216, 8.566370379710371 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Name": "Mass Communication Complex", "image": "Mass Communication Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.716080047738705, 8.565914686392018 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Name": "School Medical Centre", "image": "School Medical Centre.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.7163227, 8.5637995 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Name": "Old Administrative Complex", "image": "Old Administrative Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.717809436135998, 8.565278484177178 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "Name": "Art and Industrial Design Complex", "image": "Art and Industrial Design Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.718203646277301, 8.572155031279989 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "Name": "Agricultural Technology Complex", "image": "Agricultural Technology Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.713084122666359, 8.573920283556772 ] } },
+{ "type": "Feature", "properties": { "fid": 8, "Name": "Hospitality Management Complex", "image": "Hospitality Management Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.715623396631857, 8.571422127965443 ] } },
+{ "type": "Feature", "properties": { "fid": 9, "Name": "Center Entrepreneurship Development Studies Complex", "image": "Center Entrepreneurship Development Studies Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.717369440912615, 8.571388834748223 ] } },
+{ "type": "Feature", "properties": { "fid": 10, "Name": "Polytechnic Library", "image": "Polytechnic Library.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.718474066702023, 8.569332254149266 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "Name": "New Administrative Complex", "image": "New Administrative Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.719987835881986, 8.575758495330444 ] } },
+{ "type": "Feature", "properties": { "fid": 12, "Name": "School of Environmental Academic Staff Complex", "image": "School of Environmental Academic Staff Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.718508134448945, 8.573752564542893 ] } },
+{ "type": "Feature", "properties": { "fid": 13, "Name": "School of Environmental Deanery Complex", "image": "School of Environmental Deanery Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.7184007, 8.5729933 ] } },
+{ "type": "Feature", "properties": { "fid": 14, "Name": "Twin Theatre Complex", "image": "Twin Theatre Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.7191266, 8.5726224 ] } },
+{ "type": "Feature", "properties": { "fid": 15, "Name": "New ICT Complex", "image": "New ICT Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.719058915744879, 8.571970114837166 ] } },
+{ "type": "Feature", "properties": { "fid": 16, "Name": "School of General Studies Complex", "image": "School of General Studies Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.719807449033341, 8.569291289150295 ] } },
+{ "type": "Feature", "properties": { "fid": 17, "Name": "1200 Seat Capacity Complex", "image": "1200 Seat Capacity Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.7253104, 8.5750049 ] } },
+{ "type": "Feature", "properties": { "fid": 18, "Name": "Chemical Engineering Complex", "image": "Chemical Engineering Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.720748920649358, 8.57161400382623 ] } },
+{ "type": "Feature", "properties": { "fid": 19, "Name": "Suleiman Musa Auditorium", "image": "Suleiman Musa Auditorium.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.717762434284926, 8.567906471996102 ] } },
+{ "type": "Feature", "properties": { "fid": 20, "Name": "ASUP Secretariat", "image": "ASUP Secretariat.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.719674, 8.5685832 ] } },
+{ "type": "Feature", "properties": { "fid": 21, "Name": "ASUP Restaurant", "image": "ASUP Restaurant.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.720070764012029, 8.56844748677589 ] } },
+{ "type": "Feature", "properties": { "fid": 22, "Name": "Old ICT Complex", "image": "Old ICT Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.717561995640932, 8.567433862013765 ] } },
+{ "type": "Feature", "properties": { "fid": 23, "Name": "School of Applied Science Complex", "image": "School of Applied Science Complex.jpg" }, "geometry": { "type": "Point", "coordinates": [ 7.715899287764996, 8.572444513542544 ] } }
+]
+}
