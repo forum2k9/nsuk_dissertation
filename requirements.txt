@@ -1,6 +1,7 @@
 streamlit==1.49.1
 pandas>=2.2.0,<3.0.0
 geopandas
+fiona
 folium
 keplergl==0.3.7
 Shapely
