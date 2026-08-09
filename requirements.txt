@@ -1,9 +1,9 @@
-folium==0.20.0
-geopandas==1.1.1
-keplergl==0.3.7
-pandas==2.2.3
-Shapely==2.1.2
-SQLAlchemy==2.0.34
 streamlit==1.49.1
-streamlit_folium==0.27.4
-streamlit_keplergl==0.3.0
+pandas>=2.2.0,<3.0.0
+geopandas
+folium
+keplergl==0.3.7
+Shapely
+SQLAlchemy
+streamlit_folium
+streamlit_keplergl
