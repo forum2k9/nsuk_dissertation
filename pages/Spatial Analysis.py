@@ -20,7 +20,7 @@ local_file_path = r'GeoJSON/buildings.geojson'  # Replace with your local file i
 @st.cache_data
 def load_geojson_via_geopandas(file_source):
     """Loads GeoJSON using GeoPandas for optimal spatial parsing."""
-    return gpd.read_file(file_source)
+    return gpd.read_file(file_source).to_wkt()
 
 @st.cache_data
 def load_geojson_via_json(file_source):

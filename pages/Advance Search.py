@@ -8,9 +8,9 @@ import folium
 
 
 # Load data...
-polygons = gpd.read_file(r'GeoJSON/buildings.geojson', engine="fiona")
-lines = gpd.read_file(r'GeoJSON/roads.geojson', engine="fiona")
-points = gpd.read_file(r'GeoJSON/poi.geojson', engine="fiona")
+polygons = gpd.read_file(r'GeoJSON/buildings.geojson', engine="fiona").to_wkt()
+lines = gpd.read_file(r'GeoJSON/roads.geojson', engine="fiona").to_wkt()
+points = gpd.read_file(r'GeoJSON/poi.geojson', engine="fiona").to_wkt()
 
 
 st.markdown("## Attribute Search/Query Implementation")
