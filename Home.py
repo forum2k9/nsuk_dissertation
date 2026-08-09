@@ -53,9 +53,9 @@ with col1:
     folium.TileLayer("Cartodb Positron", name="Street View").add_to(m)
 
     # Add GeoJSON layers here
-    boundary = gpd.read_file(r'GeoJSON/boundary.geojson', engine="fiona")
-    building = gpd.read_file(r'GeoJSON/buildings.geojson', engine="fiona")
-    road = gpd.read_file(r'GeoJSON/roads.geojson', engine="fiona")
+    boundary = gpd.read_file(r'GeoJSON/boundary.geojson', engine="fiona").to_wkt()
+    building = gpd.read_file(r'GeoJSON/buildings.geojson', engine="fiona").to_wkt()
+    road = gpd.read_file(r'GeoJSON/roads.geojson', engine="fiona").to_wkt()
 
     folium.GeoJson(r'GeoJSON/boundary.geojson', name="Campus Boundary", color="red", weight=4, fill=False).add_to(m)
     folium.GeoJson(r'GeoJSON/buildings.geojson', name="Campus Buildings", color="black", weight=1, fill=True).add_to(m)
