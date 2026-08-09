@@ -1,12 +1,9 @@
 import folium
 import pandas as pd
 import geopandas as gpd
-
 import streamlit as st
 from streamlit_folium import st_folium
 from folium.plugins import Search
-
-
 
 # -------- Layout configuration --------
 st.set_page_config(page_title="Smart Web-Based Campus Platform...", layout="wide")
@@ -24,7 +21,6 @@ with st.sidebar:
     # st.image("img/03.jpg", caption="Gate Security Feed")
 
     search_text = st.text_input(label="Seach the map...", value="")
-
 
 # -------- Main Map Area --------
 col1, col2 = st.columns([3, 1])
@@ -78,8 +74,6 @@ with col1:
         position="topright"
     ).add_to(m)
 
-
-
     # Helper function to determine color based on the attribute value
     def get_color(predicted):
         if predicted == 1:
@@ -108,7 +102,6 @@ with col1:
     # Render in Streamlit
     st_folium(m, width=600, height=500)
 
-
 # -------- Metrics Row --------
 with col2:
     st.metric(label="Total Area", value="2146.158 Ha")
@@ -124,4 +117,3 @@ with st.expander("Building Attribute", icon="🏠"):
 with st.expander("Roads Attribute", icon="🛣️"):
     st.write("This are the attributes of the roads...:")
     st.dataframe(road)
-
