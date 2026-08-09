@@ -1,0 +1,11 @@
+folium==0.20.0
+geopandas==1.1.1
+keplergl==0.3.7
+pandas==3.0.5
+Shapely==2.1.2
+SQLAlchemy==2.0.34
+streamlit==1.37.1
+streamlit==1.49.1
+streamlit_folium==0.27.4
+streamlit_kepler_component==0.0.11
+streamlit_keplergl==0.3.0
